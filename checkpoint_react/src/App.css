@@ -1,8 +1,11 @@
 .cards{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
   justify-content: center;
+  justify-items: center;
   width: 100%;
   gap: 20px;
+  padding: 20px;
 }
 
 img{
